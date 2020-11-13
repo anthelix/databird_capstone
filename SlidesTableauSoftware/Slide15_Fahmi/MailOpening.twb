@@ -1,0 +1,2113 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20202.20.0614.2338                               -->
+<workbook original-version='18.1' source-build='2020.2.2 (20202.20.0614.2338)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='20200728_simon_fahmi_mailopnening' inline='true' name='federated.19p8zv40r85l2h135vxqh0sv4l9j' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='20200728_simon_fahmi_mailopnening' name='textscan.1ofhurl1xmpll217hf4iu1rposjz'>
+            <connection class='textscan' directory='/Users/fahmi/Desktop/DataBird/Projet/data' filename='20200728_simon_fahmi_mailopnening.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1ofhurl1xmpll217hf4iu1rposjz' name='20200728_simon_fahmi_mailopnening.csv' table='[20200728_simon_fahmi_mailopnening#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='fr_FR' separator=','>
+            <column datatype='string' name='Name_lab' ordinal='0' />
+            <column datatype='integer' name='bool_open_x' ordinal='1' />
+            <column datatype='integer' name='bool_open_y' ordinal='2' />
+            <column datatype='real' name='open_rate' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1ofhurl1xmpll217hf4iu1rposjz' name='20200728_simon_fahmi_mailopnening.csv' table='[20200728_simon_fahmi_mailopnening#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='fr_FR' separator=','>
+            <column datatype='string' name='Name_lab' ordinal='0' />
+            <column datatype='integer' name='bool_open_x' ordinal='1' />
+            <column datatype='integer' name='bool_open_y' ordinal='2' />
+            <column datatype='real' name='open_rate' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[20200728_simon_fahmi_mailopnening.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;fr_FR&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;€&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;fr_FR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot; &quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name_lab</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name_lab]</local-name>
+            <parent-name>[20200728_simon_fahmi_mailopnening.csv]</parent-name>
+            <remote-alias>Name_lab</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LFR_RFR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[20200728_simon_fahmi_mailopnening.csv_BF76F340F27442739E183FBE19B61268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bool_open_x</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[bool_open_x]</local-name>
+            <parent-name>[20200728_simon_fahmi_mailopnening.csv]</parent-name>
+            <remote-alias>bool_open_x</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[20200728_simon_fahmi_mailopnening.csv_BF76F340F27442739E183FBE19B61268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bool_open_y</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[bool_open_y]</local-name>
+            <parent-name>[20200728_simon_fahmi_mailopnening.csv]</parent-name>
+            <remote-alias>bool_open_y</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[20200728_simon_fahmi_mailopnening.csv_BF76F340F27442739E183FBE19B61268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>open_rate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[open_rate]</local-name>
+            <parent-name>[20200728_simon_fahmi_mailopnening.csv]</parent-name>
+            <remote-alias>open_rate</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[20200728_simon_fahmi_mailopnening.csv_BF76F340F27442739E183FBE19B61268]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Name_lab]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='20200728_simon_fahmi_mailopnening.csv' datatype='table' name='[__tableau_internal_object_id__].[20200728_simon_fahmi_mailopnening.csv_BF76F340F27442739E183FBE19B61268]' role='measure' type='quantitative' />
+      <column-instance column='[Name_lab]' derivation='None' name='[none:Name_lab:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Name_lab:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;ABBOTT MEDICAL (ST JUDE)&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;AMPLITUDE&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;BARD FRANCE SAS&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;BOSTON SCIENTIFIC&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;coloplast labo&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;DePuy-Synthes&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;EXATEC&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Groupe Lépine&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;IMPLANET&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;J&amp;J Medical (Depuy Synthes)&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Keri Medical&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;LeMaitre VASCULAR&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Medicalex&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Medtronic (Neuromodulation)&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;MOTIVA IMPLANT FRANCE&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;OBL&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;OTHESIO IMPLANTS&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Prothys Orthopedique&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;SPINE WAY&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;TEST&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;X.NOV&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;3D SIDE&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;ALCON&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;ATF/LAPE&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Biotechni&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;CHOC&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;CRISTALENS&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Evolutis&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;GHMC&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Hygea Medical&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Integra orthopedie&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;J&amp;J vision&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Lapé Médical&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;MATHYS ORTHOPEDIE&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;MEDIFAV&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;MEDTRONIC UROLOGIE&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;NOTIN Matthieu&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Orthofix&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;PROTHEOS&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;serf (hanche)&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Stryker CMF&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;veodis&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;ABBOTT&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;AMO&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;atos medical&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;BIOVAS&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;cochlear&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;DEDIENNE SANTE - SME&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;exactech&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;GORE&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;ICB Medical sprl&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;ISO Ortho&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;KARL STORZ&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;LDR (Easyspine)&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;MEDESTH FRANCE&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Medtronic (cardio)&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;MicroPort&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;NOVATECH&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;OsteoMed&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Protheos Ouest&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Smith &amp; Nephew&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Symbios&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Wright medical&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;abbott vascular stent&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;ARION CRISTEC&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;BD Bard&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;C2F&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Cook&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Euros&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;FH ortho / Responsable Sud Ouest&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;HANITA&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Implants Service Orthopedie&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;J&amp;J medical (Depuy-Synthes)&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;KLS MARTIN GROUP&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;LIFE Partners Europe&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;MEDICOSCOP&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;MEDTRONIC (service rachis)&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;MOVEUP&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;OMNIS MEDICA&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Physiol&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;SAFE ORTHOPEDICS&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;spineway&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;UNID&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;ZEISS&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;ABBOTT MEDICAL FRANCE&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;AREX&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;BAUSCH &amp; LOMB&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Boston Scientific&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Conmed&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Dexterite medical&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;F.C.I&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;GROUPE LEPINE&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;IMPLANTCAST&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;J&amp;J medical (DePuy-Synthes &amp; Mitek)&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;KERI MEDICAL FRANCE&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;lepine&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;MEDICARE&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;MEDTRONIC (rachis)&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;MOTIVA IMPLANTS FRANCE&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;OCCLUTECH&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;PENUMBRA FRANCE SAS&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;PulmonX International Sarl&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Spineart&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;TEST DSI&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;X.nov&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Abbott&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;AMO FRANCE&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Atos Medical&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;BONE 3D&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;COLLIN&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;DePuy - Mitek&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;EXACTECH&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Gore&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;ICERAM&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;J&amp;J medical - Prothèses (DePuy)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;KEBOMED&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;LDR Medical&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;MEDFIRST&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;MEDTRONIC (CardioVasculaire)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;MIETHKE&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Novatech&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;osteomed&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Prothys&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;SOPHYSA&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;SYNCHRO MEDICAL (TOE GRIP)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;x-nov&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;AKED (Acumed)&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;ATF&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Biotech&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Ceraver&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;CORINNE HELP ORTHO (ZIMMER) - ORTHO&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;EUROSILICONE SAS&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;GETINGE (stent isthmus)&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;HOYA&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;integra life&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;J&amp;J medical (Mitek)&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;LABORATOIRE VYGON&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Mathys&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Medicrea - Tige Unid&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Medtronic rachis&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;NEXIS&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;OPTIMED SARL&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Prodition - Oticon Médical&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;SEM&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Stryker&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;VEODIS&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Zimmer-Biomet (trauma / membre sup / arthro)&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;3S ortho&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;ALCON FRANCE&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Atlantis&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;BIOTRONIK&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;CLARIANCE&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Cristalens&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;EVOLUTIS FRANCE&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;GLOBAL D&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;I CERAM&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;INTERGA CODMAN (Crane sur mesure)&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;JMS&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;LARS Ligaments&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Mathys Orthopedie&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Medifav&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;MENTOR (Johnson et Johnson)&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;NOUVELLE CLINIQUE BEL AIR&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;OSD&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Protheos&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;SERF / Directeur Régional Ouest&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;SURGINOV&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;VIMS&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;ADLER ORTHO FRANCE&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Arthrex Démo&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;BIOBANK&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;CARL ZEISS&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;COOK MEDICAL (périphérique)&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;EUROSILICONE&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Fx Solutions&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Hexabio&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Integra - New-deal&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;J&amp;J Medical (Mitek)&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Labo Zibo&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;MAQUET&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Medicrea&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;MEDTRONIC FRANCE NEUROMODULATION&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Newclip technics&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Optimed&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;POLYTECH&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;SEBBIN&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;STRYKER&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;United Orthopedic corporation&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Zimmer-Biomet (hanche)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;ABBOTT (FOP, CIA)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;amplitude&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;BARD&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;BOSTON&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;COLLIN MEDICAL&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;depuy synthes&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Exactech&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Gore Médical&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;IMPLANCAST&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;J&amp;J medical - Trauma (Synthes)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;KEBOMED (anciennement GHW)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;LDR Zimmer&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;MEDI FAV&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;MEDTRONIC (NeuroDiab)&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Motiva&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;NOVOMEDICS&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;OTHESIO&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;PROTHYS&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Spinaxis&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;TERUMO&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;X-NOV&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Adapsia&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;ARMONI MATHYS Noraker&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Benewmedical (Eurosilicone)&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;C2os&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;COOK FRANCE&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;EUROS&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;fournitures hospitalière&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Hanita France&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;In2bones&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;J&amp;J Medical (DePuy-Synthes)&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;KNEEX ORTHOPAEDIC&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;LIFE PARTNERS EUROPE&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Medicoscope&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Medtronic (Vasculaire)&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Neosteo&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;OPHTA FRANC&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;PHYSIOL&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;SBI&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Stanmore&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;UNITED&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;ZEISS CARL ZEISS MEDITEC&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;ADLER&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Arsenal Chirurgical&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;BENTLEY&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Cardinal&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Cook France&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;EUROS SAS&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;France Rachis&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;HANITA MEDICALENS&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Integra&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;J&amp;J Medical (DePuy)&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Kyd Orthopedie&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;LIMA&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;MEDICREA&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Medtronic cardio&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;NEW DEAL (HALLUFIX)&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Ophta France&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;PNN MEDICAL&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;SBM&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;STORZ&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;United&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Zimmer Biomet (rachis)&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;ADVANCE&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Aston &amp; SEM&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Bioprotec&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Ceram Concept&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Corin&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Eurosilicone&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Getinge&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;HEXABIO RETAIL&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Integra - Newdeal&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;J&amp;J médical (Mitek)&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;LABORATOIRE SEBBIN&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Materialise&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;medicrea&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Medtronic Neuromodulation&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Newdeal Integra&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;OPTIMED&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;POLYTECH Health &amp; Aesthetics France&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Sebbin&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;stryker&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Vascutek&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Zimmer-Biomet (LDR Rachis)&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Alcon&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;ATF - ADVANCED TECHNICAL FABRICATION&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Biotech Dental&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;CERAVER&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;COUSIN ENDOSURG&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;EVOLUTIS&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;GETINGE FRANCE DIVISION MAQUET&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;HYGEA&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;INTEGRA LIFESCIENCES SERVICES&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;J&amp;J medical (Synthes)&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;LAPE MEDICAL&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;MATHYS&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;MEDICREA INTERNATIONAL&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Medtronic Rachis&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;non désigné&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;ORTHO OUEST&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Promamec&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;SERF&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;STRYKER (Stanmore)&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Veodis&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;ABBOTT MEDICAL FRANCE SAS&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Arion&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;BBraun&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;boston scientific (AMS)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;ConMed&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;ELIAMM&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;FCI&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;GROUPE LEPINE (0472359650)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Implantcast&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;J&amp;J Medical (Depuy-Synthes)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Kerimedical&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;LEPINE&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Medicontur&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Medtronic (Rachis)&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Motiva*&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;OLYMPUS&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;PERSEE MEDICAL&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SACIMEX&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;SPINEVISION&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;TOPCON&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;XLab&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Abbott (vasculaire)&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Amplitude&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Bard&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Boston&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;COLOPLAST&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;DEPUY SYNTHES&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;EXACTECH FRANCE&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Groupe Lepine&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Implancast&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;J&amp;J medical (Depuy Synthes)&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Keri medical&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;LDR-ZIMMER BIOMET RACHIS&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Medi Fav&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;MEDTRONIC (neurodiab)&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;MOTIVA&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;nuvasiv&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;OTHESIO Implants&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;PROTHYS ORTHOPEDIE&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;SPINAXIS ( revendeur NUVASIVE)&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Terumo Vascutek&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;X.Nov&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;3s Ortho&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Allergan&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;ATLANTIS&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Biotronik&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Clariance&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Cutting edge&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Evolutis France&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Global D&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;I-CERAM&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Intermede&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;JOHNSON &amp;JOHNSON&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;LDR&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Medacta&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Medtronic&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;MERIT MEDICAL&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Novaspine&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;OSMOSE&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;PROTHEOS - TRIATHLON (LAURENCE PECHIN)&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;SI-BONE&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Surgitech&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Vygon (Perouse)&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Adler ortho&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Arthrex&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Bentley&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;CARDINAL HEALTH&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;COOK MEDICAL&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;eurosilicone&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;France Rachis / Responsable secteur Sud-Ouest&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;HEMOTECH PARIS&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;INTEGRA&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;J&amp;J Medical (Mitek&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Labo TEST RC&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;LIMA FRANCE - LINK FRANCE&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Médicrea&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;MEDTRONIC FRANCE&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;new medical distribution&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;OPHTA-FRANCE&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Polytech&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;sbm&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;STRAUMANN&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;UNITED / UOC France&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Zimmer-Biomet (genou)&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;ABBOTT Vascular&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;ARION&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;BBRAUN ( prothèses vasculaires)&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;BOSTON SCIENTIFIC CARDIOLOGIE&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;CONMED&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;ELIAMM/EUROPRISME&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;FH Ortho&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Groupe Lépine Service ki&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;implantcast france&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;J&amp;J medical (DePuy-Synthes)&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;KERIMEDICAL&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Lépine&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Medicoscop&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Medtronic (rachis)&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;MOVE UP&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;OMNIS&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;PHOCEENNE D&apos;ORTHOPEDIE&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Safe Orthopaedics&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;spinevision&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Topcon France&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Zeiss&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;3S Ortho&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;ALLERGAN&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Atlantis Diffusion&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;BIOTRONIK FRANCE&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Cochlear&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;DEDIENNE SANTE&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Exactec&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Global S&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;I.Ceram&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;ISO&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Johnson and Johnson medical SAS division DEPUY SYNTHES&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;LDR - Zimmer&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Medartis&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;MEDTRONIC&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Metec&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Novastep&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Osteobanque&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;PROTHEOS EST&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;SIGNATURE&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;SYMBIOS&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;WL GORE&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;France&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='20200728_simon_fahmi_mailopnening.csv' id='20200728_simon_fahmi_mailopnening.csv_BF76F340F27442739E183FBE19B61268'>
+            <properties context=''>
+              <relation connection='textscan.1ofhurl1xmpll217hf4iu1rposjz' name='20200728_simon_fahmi_mailopnening.csv' table='[20200728_simon_fahmi_mailopnening#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='fr_FR' separator=','>
+                  <column datatype='string' name='Name_lab' ordinal='0' />
+                  <column datatype='integer' name='bool_open_x' ordinal='1' />
+                  <column datatype='integer' name='bool_open_y' ordinal='2' />
+                  <column datatype='real' name='open_rate' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Taux ouverture mail par labo'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='20200728_simon_fahmi_mailopnening' name='federated.19p8zv40r85l2h135vxqh0sv4l9j' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19p8zv40r85l2h135vxqh0sv4l9j'>
+            <column datatype='string' name='[Name_lab]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[bool_open_y]' role='measure' type='quantitative' />
+            <column-instance column='[Name_lab]' derivation='None' name='[none:Name_lab:nk]' pivot='key' type='nominal' />
+            <column datatype='real' name='[open_rate]' role='measure' type='quantitative' />
+            <column-instance column='[bool_open_y]' derivation='Sum' name='[sum:bool_open_y:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[open_rate]' derivation='Sum' name='[sum:open_rate:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.19p8zv40r85l2h135vxqh0sv4l9j].[none:Name_lab:nk]'>
+            <groupfilter count='30' end='bottom' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([open_rate])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Name_lab:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.19p8zv40r85l2h135vxqh0sv4l9j].[none:Name_lab:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.19p8zv40r85l2h135vxqh0sv4l9j].[sum:open_rate:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.19p8zv40r85l2h135vxqh0sv4l9j].[none:Name_lab:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.19p8zv40r85l2h135vxqh0sv4l9j].[sum:open_rate:qk]' palette='blue_teal_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.19p8zv40r85l2h135vxqh0sv4l9j].[sum:open_rate:qk]' />
+              <size column='[federated.19p8zv40r85l2h135vxqh0sv4l9j].[sum:bool_open_y:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.19p8zv40r85l2h135vxqh0sv4l9j].[none:Name_lab:nk]</rows>
+        <cols>[federated.19p8zv40r85l2h135vxqh0sv4l9j].[sum:open_rate:qk]</cols>
+      </table>
+      <simple-id uuid='{8F513474-6A5C-4053-9AA6-F1E146B81789}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Taux ouverture mail par labo'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.19p8zv40r85l2h135vxqh0sv4l9j].[sum:open_rate:qk]' type='color' />
+            <card pane-specification-id='0' param='[federated.19p8zv40r85l2h135vxqh0sv4l9j].[sum:bool_open_y:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.19p8zv40r85l2h135vxqh0sv4l9j].[sum:open_rate:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{0F724C61-788F-46CD-8B8C-6401B8EC74AA}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Taux ouverture mail par labo' width='384'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
